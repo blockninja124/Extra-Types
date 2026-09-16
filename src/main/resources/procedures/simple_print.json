@@ -1,0 +1,21 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "str"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "%{BKY_TEXTS_HUE}",
+  "mcreator": {
+    "toolbox_id": "misc",
+    "toolbox_init": [
+      "<value name=\"str\"><block type=\"text\"><field name=\"TEXT\"></field></block></value>"
+    ],
+    "inputs": [
+      "str"
+    ]
+  }
+}
