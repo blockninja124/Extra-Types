@@ -1,0 +1,1 @@
+(${input$pos}.${field$side}((int) ${input$dist}))

@@ -1,0 +1,24 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "var",
+      "check": "BlockPos"
+    },
+    {
+      "type": "input_value",
+      "name": "var2",
+      "check": "BlockPos"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": "110",
+  "mcreator": {
+    "toolbox_id": "blockpos",
+    "inputs": [
+      "var",
+      "var2"
+    ]
+  }
+}

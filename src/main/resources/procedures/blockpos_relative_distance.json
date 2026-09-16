@@ -1,0 +1,34 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    },
+    {
+      "type": "input_value",
+      "name": "dir",
+      "check": "Direction"
+    },
+    {
+      "type": "input_value",
+      "name": "dist",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "output": "BlockPos",
+  "colour": 110,
+  "mcreator": {
+    "toolbox_id": "blockpos",
+    "toolbox_init": [
+      "<value name=\"dir\"><block type=\"direction_constant\"><field name=\"direction\">DOWN</field></block></value>",
+      "<value name=\"dist\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value>"
+    ],
+    "inputs": [
+      "pos",
+      "dir",
+      "dist"
+    ]
+  }
+}

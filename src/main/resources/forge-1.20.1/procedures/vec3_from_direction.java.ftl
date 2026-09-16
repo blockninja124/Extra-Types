@@ -1,0 +1,1 @@
+(new Vec3(${input$dir}.getNormal().getX(), ${input$dir}.getNormal().getY(), ${input$dir}.getNormal().getZ()))

@@ -1,0 +1,31 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    },
+    {
+      "type": "input_value",
+      "name": "pos2",
+      "check": "BlockPos"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 60,
+  "mcreator": {
+    "toolbox_id": "blockactions",
+    "inputs": [
+      "pos",
+      "pos2"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

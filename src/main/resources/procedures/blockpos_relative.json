@@ -1,0 +1,27 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    },
+    {
+      "type": "input_value",
+      "name": "dir",
+      "check": "Direction"
+    }
+  ],
+  "inputsInline": true,
+  "output": "BlockPos",
+  "colour": 110,
+  "mcreator": {
+    "toolbox_id": "blockpos",
+    "toolbox_init": [
+      "<value name=\"dir\"><block type=\"direction_constant\"><field name=\"direction\">DOWN</field></block></value>"
+    ],
+    "inputs": [
+      "pos",
+      "dir"
+    ]
+  }
+}

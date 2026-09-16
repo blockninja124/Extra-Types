@@ -1,0 +1,1 @@
+(BlockPos.containing(${input$var}.x, ${input$var}.y, ${input$var}.z))

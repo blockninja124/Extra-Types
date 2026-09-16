@@ -1,0 +1,1 @@
+((double) ${input$var}.get${field$coor}())

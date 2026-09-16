@@ -1,0 +1,10 @@
+defaultvalue: new BlockPos(0, 0, 0)
+scopes:
+  local:
+    init: BlockPos ${var.getName()} = ${var.getType().getDefaultValue(generator.getWorkspace())};
+    get: ${name}
+    set: ${name} = ${value};
+  global_session:
+    init: public static BlockPos ${var.getName()} = ${var.getValue()};
+    get: ${JavaModName}Variables.${name}
+    set: ${JavaModName}Variables.${name} = ${value};

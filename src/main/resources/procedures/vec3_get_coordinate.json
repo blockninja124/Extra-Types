@@ -1,0 +1,30 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "var",
+      "check": "Vec3"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "coor",
+      "options": [
+        [ "x", "x" ],
+        [ "y", "y" ],
+        [ "z", "z" ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": 270,
+  "mcreator": {
+    "toolbox_id": "vec3",
+    "inputs": [
+      "var"
+    ],
+    "fields": [
+      "coor"
+    ]
+  }
+}

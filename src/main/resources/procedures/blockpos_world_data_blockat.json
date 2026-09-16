@@ -1,0 +1,31 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    },
+    {
+      "type": "field_image",
+      "src": "./res/b.png",
+      "width": 8,
+      "height": 36
+    }
+  ],
+  "inputsInline": true,
+  "output": "MCItemBlock",
+  "colour": 60,
+  "mcreator": {
+    "group": "base",
+    "toolbox_id": "blockdata",
+    "inputs": [
+      "pos"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

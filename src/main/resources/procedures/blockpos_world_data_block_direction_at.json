@@ -1,0 +1,25 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Direction",
+  "colour": 20,
+  "mcreator": {
+    "group": "data_at",
+    "toolbox_id": "blockdata",
+    "inputs": [
+      "pos"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

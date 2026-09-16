@@ -1,0 +1,9 @@
+{
+  "valkyrien_plugin": {
+    "latest": "2.4",
+    "changes": [
+      "Added 'for each connected ship' block",
+      "Added 'for each attached joint' block"
+    ]
+  }
+}

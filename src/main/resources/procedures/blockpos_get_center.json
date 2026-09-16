@@ -1,0 +1,18 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Vec3",
+  "colour": 110,
+  "mcreator": {
+    "toolbox_id": "blockpos",
+    "inputs": [
+      "pos"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "side",
+      "options": [
+        [ "above", "above" ],
+        [ "below", "below" ],
+        [ "east", "east" ],
+        [ "north", "north" ],
+        [ "south", "south" ],
+        [ "west", "west" ]
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "dist",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "output": "BlockPos",
+  "colour": 110,
+  "mcreator": {
+    "toolbox_id": "blockpos",
+    "toolbox_init": [
+      "<value name=\"dist\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value>"
+    ],
+    "inputs": [
+      "pos",
+      "dist"
+    ],
+    "fields": [
+      "side"
+    ]
+  }
+}

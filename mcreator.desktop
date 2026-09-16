@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/bin/bash -c 'cd "/home/brickyboy/Projects/Java/mcreator_plugin" && ./mcreator.sh'
+Type=Application
+Terminal=false
+Name=MCreator
+Icon=/home/brickyboy/Projects/Java/mcreator_plugin/icon.png

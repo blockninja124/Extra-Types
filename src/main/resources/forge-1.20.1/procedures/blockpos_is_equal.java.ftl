@@ -1,0 +1,1 @@
+(${input$var}.equals(${input$var2}))

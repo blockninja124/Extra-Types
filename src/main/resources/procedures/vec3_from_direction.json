@@ -1,0 +1,17 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "dir",
+      "check": "Direction"
+    }
+  ],
+  "output": "Vec3",
+  "colour": 270,
+  "mcreator": {
+    "toolbox_id": "vec3",
+    "inputs": [
+      "dir"
+    ]
+  }
+}

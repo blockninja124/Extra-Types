@@ -1,0 +1,34 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    },
+    {
+      "type": "input_value",
+      "name": "direction",
+      "check": "Direction"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 60,
+  "mcreator": {
+    "toolbox_id": "blockactions",
+    "toolbox_init": [
+      "<value name=\"direction\"><block type=\"direction_constant\">DOWN</block></value>"
+    ],
+    "inputs": [
+      "pos",
+      "direction"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

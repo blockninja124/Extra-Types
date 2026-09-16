@@ -1,0 +1,18 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "id",
+      "check": "DimensionType"
+    }
+  ],
+  "colour": 110,
+  "inputsInline": true,
+  "output": "String",
+  "mcreator": {
+    "toolbox_id": "misc",
+    "inputs": [
+      "id"
+    ]
+  }
+}

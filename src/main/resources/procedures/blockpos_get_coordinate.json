@@ -1,0 +1,30 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "var",
+      "check": "BlockPos"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "coor",
+      "options": [
+        [ "x", "X" ],
+        [ "y", "Y" ],
+        [ "z", "Z" ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": 110,
+  "mcreator": {
+    "toolbox_id": "blockpos",
+    "inputs": [
+      "var"
+    ],
+    "fields": [
+      "coor"
+    ]
+  }
+}

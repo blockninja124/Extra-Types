@@ -1,0 +1,1 @@
+/*@BlockState*/(world.getBlockState(${input$pos}))

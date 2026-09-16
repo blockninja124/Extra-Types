@@ -1,0 +1,1 @@
+(${input$var}.${field$op}(${input$var2}))

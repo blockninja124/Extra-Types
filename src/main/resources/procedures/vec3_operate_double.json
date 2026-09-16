@@ -1,0 +1,49 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "var",
+      "check": "Vec3"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "op",
+      "options": [
+        [ "+", "add" ],
+        [ "-", "subtract" ],
+        [ "*", "multiply" ],
+        [ "distance to (sqr)", "distanceToSqr" ]
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "x",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "y",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "z",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Vec3",
+  "colour": 270,
+  "mcreator": {
+    "toolbox_id": "vec3",
+    "inputs": [
+      "var",
+      "x",
+      "y",
+      "z"
+    ],
+    "fields": [
+      "op"
+    ]
+  }
+}

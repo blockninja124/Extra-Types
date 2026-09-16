@@ -1,0 +1,53 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "x",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "y",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "z",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "distance",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "creative",
+      "check": "Boolean"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Entity",
+  "colour": 195,
+  "mcreator": {
+    "toolbox_id": "misc",
+    "toolbox_init": [
+      "<value name=\"x\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+			"<value name=\"y\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+			"<value name=\"z\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
+    ],
+    "inputs": [
+      "x",
+      "y",
+      "z",
+      "distance",
+      "creative"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

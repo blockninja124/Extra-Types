@@ -1,0 +1,1 @@
+(${input$pos}.relative(${input$dir}, ${input$dist}))

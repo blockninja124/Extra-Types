@@ -1,0 +1,10 @@
+defaultvalue: new Vec3(0, 0, 0)
+scopes:
+  local:
+    init: Vec3 ${var.getName()} = ${var.getType().getDefaultValue(generator.getWorkspace())};
+    get: ${name}
+    set: ${name} = ${value};
+  global_session:
+    init: public static Vec3 ${var.getName()} = ${var.getValue()};
+    get: ${JavaModName}Variables.${name}
+    set: ${JavaModName}Variables.${name} = ${value};

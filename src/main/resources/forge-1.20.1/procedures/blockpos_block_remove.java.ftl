@@ -1,0 +1,1 @@
+world.setBlock(${input$pos}, Blocks.AIR.defaultBlockState(), 3);

@@ -1,0 +1,33 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pos",
+      "check": "BlockPos"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "side",
+      "options": [
+        [ "above", "above" ],
+        [ "below", "below" ],
+        [ "east", "east" ],
+        [ "north", "north" ],
+        [ "south", "south" ],
+        [ "west", "west" ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": "BlockPos",
+  "colour": 110,
+  "mcreator": {
+    "toolbox_id": "blockpos",
+    "inputs": [
+      "pos"
+    ],
+    "fields": [
+      "side"
+    ]
+  }
+}
