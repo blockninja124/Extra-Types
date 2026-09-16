@@ -1,0 +1,1 @@
+${input$var}.putString(${input$key}, ${input$val}.name());
