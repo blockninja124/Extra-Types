@@ -1,0 +1,10 @@
+defaultvalue: new StringBuilder()
+scopes:
+  local:
+    init: StringBuilder ${var.getName()} = ${var.getType().getDefaultValue(generator.getWorkspace())};
+    get: ${name}
+    set: ${name} = ${value};
+  global_session:
+    init: public static StringBuilder ${var.getName()} = ${var.getValue()};
+    get: ${JavaModName}Variables.${name}
+    set: ${JavaModName}Variables.${name} = ${value};
