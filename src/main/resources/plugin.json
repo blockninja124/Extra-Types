@@ -3,13 +3,13 @@
   "supportedversions": [
     2024001,
     2024002,
-	  2024003,
+    2024003,
     2024004,
     2025002
   ],
   "info": {
     "name": "Extra Types",
-    "version": "1.0",
+    "version": "1.7",
     "description": "Adds some useful extra types",
     "author": "blockninja124"
   }

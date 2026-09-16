@@ -1,1 +1,1 @@
-${input$var}.put(${input$key}, ${input$val});
+${input$var}.put(${input$key}, ${input$val}.copy());
