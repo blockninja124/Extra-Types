@@ -1,0 +1,27 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "var",
+      "check": "CompoundTag"
+    },
+    {
+      "type": "input_value",
+      "name": "key",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": "%{BKY_LOGIC_HUE}",
+  "mcreator": {
+    "toolbox_id": "compoundtag",
+    "toolbox_init": [
+      "<value name=\"key\"><block type=\"text\"><field name=\"TEXT\">key</field></block></value>"
+    ],
+    "inputs": [
+      "var",
+      "key"
+    ]
+  }
+}

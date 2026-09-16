@@ -1,0 +1,1 @@
+${input$var}.putBoolean(${input$key}, ${input$val});

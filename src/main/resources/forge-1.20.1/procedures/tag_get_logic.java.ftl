@@ -1,0 +1,1 @@
+(${input$var}.getBoolean(${input$key}))
