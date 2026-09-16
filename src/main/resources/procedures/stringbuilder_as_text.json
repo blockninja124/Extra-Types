@@ -1,0 +1,18 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "var",
+      "check": "StringBuilder"
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "colour": 170,
+  "mcreator": {
+    "toolbox_id": "stringbuilder",
+    "inputs": [
+      "var"
+    ]
+  }
+}
