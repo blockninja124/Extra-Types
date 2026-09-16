@@ -1,0 +1,1 @@
+(BlockPos.of((long) ${input$var}))
