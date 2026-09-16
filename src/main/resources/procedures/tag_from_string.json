@@ -1,0 +1,18 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "var",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "CompoundTag",
+  "colour": "%{BKY_TEXTS_HUE}",
+  "mcreator": {
+    "toolbox_id": "compoundtag",
+    "inputs": [
+      "var"
+    ]
+  }
+}
