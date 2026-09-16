@@ -1,0 +1,27 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "var",
+      "check": "StringBuilder"
+    },
+    {
+      "type": "input_value",
+      "name": "text",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": 170,
+  "mcreator": {
+    "toolbox_id": "stringbuilder",
+    "toolbox_init": [
+      "<value name=\"text\"><block type=\"text\"><field name=\"TEXT\"></field></block></value>"
+    ],
+    "inputs": [
+      "var",
+      "text"
+    ]
+  }
+}

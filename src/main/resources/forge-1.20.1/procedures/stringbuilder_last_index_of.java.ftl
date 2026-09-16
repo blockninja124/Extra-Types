@@ -1,0 +1,1 @@
+(${input$var}.lastIndexOf(${input$text}))
