@@ -4,14 +4,6 @@
       "type": "input_value",
       "name": "str",
       "check": "String"
-    },
-    {
-      "type": "field_dropdown",
-      "name": "newline",
-      "options": [
-        [ "true", "true" ],
-        [ "false", "false" ]
-      ]
     }
   ],
   "inputsInline": true,
@@ -25,9 +17,6 @@
     ],
     "inputs": [
       "str"
-    ],
-    "fields": [
-      "newline"
     ]
   }
 }
